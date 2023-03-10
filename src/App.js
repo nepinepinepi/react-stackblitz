@@ -1,11 +1,12 @@
 import React from 'react';
 import './style.css';
 
-export default function App() {
+import BasicDocument from './BasicDocument';
+function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz! nakatatest</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="App">
+      <BasicDocument />
     </div>
   );
 }
+export default App;
